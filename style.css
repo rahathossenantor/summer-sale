@@ -3,3 +3,23 @@
 .font-worksans {
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/* code for responsiveness */
+@media screen and (max-width: 767px) {
+    .hero-text-content {
+        order: 3;
+    }
+    .hero-media-content {
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero-text-content {
+        order: 3;
+    }
+    .hero-media-content {
+        order: 1;
+    }
+}
