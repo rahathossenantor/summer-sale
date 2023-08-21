@@ -4,6 +4,15 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.cart-items li, .expens h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.expens h4 span {
+    color: #11111180;
+}
+
 
 /* code for responsiveness */
 @media screen and (max-width: 767px) {
