@@ -92,7 +92,7 @@
                                     <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#FFC107]" checked />
                                     <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#FFC107]" />
                                 </div>
-                                <h4 class="font-semibold">K. Accessories</h4>
+                                <h4 class="font-semibold">Home Cooker</h4>
                                 <p><span>49.00</span> TK</p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                                     <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#FFC107]" />
                                     <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#FFC107]" />
                                 </div>
-                                <h4 class="font-semibold">K. Accessories</h4>
+                                <h4 class="font-semibold">Sports Back Cap</h4>
                                 <p><span>49.00</span> TK</p>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107]" />
                                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#FFC107]" />
                                 </div>
-                                <h4 class="font-semibold">K. Accessories</h4>
+                                <h4 class="font-semibold">Full Jersey Set</h4>
                                 <p><span>69.00</span> TK</p>
                             </div>
                         </div>
@@ -154,14 +154,14 @@
                                     <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#FFC107]" checked />
                                     <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#FFC107]" />
                                 </div>
-                                <h4 class="font-semibold">K. Accessories</h4>
+                                <h4 class="font-semibold">Sports cates</h4>
                                 <p><span>159.00</span> TK</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- third card row -->
-                    <h3 class="text-3xl font-semibold my-5">Sportswear</h3>
+                    <h3 class="text-3xl font-semibold my-5">Furniture</h3>
                     <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-5">
                         <!-- card 7 -->
                         <div class="border rounded-md cursor-pointer">
@@ -178,7 +178,7 @@
                                     <input type="radio" name="rating-7" class="mask mask-star-2 bg-[#FFC107]" />
                                     <input type="radio" name="rating-7" class="mask mask-star-2 bg-[#FFC107]" />
                                 </div>
-                                <h4 class="font-semibold">K. Accessories</h4>
+                                <h4 class="font-semibold">Single Relax Chair</h4>
                                 <p><span>185.00</span> TK</p>
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                                     <input type="radio" name="rating-8" class="mask mask-star-2 bg-[#FFC107]" />
                                     <input type="radio" name="rating-8" class="mask mask-star-2 bg-[#FFC107]" />
                                 </div>
-                                <h4 class="font-semibold">K. Accessories</h4>
+                                <h4 class="font-semibold">Children play</h4>
                                 <p><span>299.00</span> TK</p>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                                     <input type="radio" name="rating-9" class="mask mask-star-2 bg-[#FFC107]" checked />
                                     <input type="radio" name="rating-9" class="mask mask-star-2 bg-[#FFC107]" />
                                 </div>
-                                <h4 class="font-semibold">K. Accessories</h4>
+                                <h4 class="font-semibold">Flexible Sofa</h4>
                                 <p><span>339.00</span> TK</p>
                             </div>
                         </div>
@@ -245,7 +245,25 @@
                             <h4>Grand total: <span>00.00</span> TK</h4>
                         </div>
                         <hr class="mt-3 mb-4">
-                        <button class="btn btn-secondary normal-case text-white w-full">Make Purchase</button>
+                        <!-- purchase button -->
+                        <div class="mt-2">
+                            <button class="btn btn-secondary normal-case text-white w-full" onclick="my_modal_1.showModal()">Make Purchase</button>
+                            <dialog id="my_modal_1" class="modal">
+                              <form method="dialog" class="modal-box">
+                                <!-- modal content -->
+                                <div class="card card-compact bg-base-100">
+                                  <figure><img src="./images/congo.png" alt="success-image" /></figure>
+                                  <div class="card-body text-center">
+                                    <h3 class="text-4xl font-bold">Congratulations</h3>
+                                    <p class="my-1 text-[#11111180] text-[19px] font-medium">Your Purchase the product</p>
+                                  </div>
+                                </div>
+                                <div class="flex items-center justify-center">
+                                    <button class="btn btn-secondary normal-case text-white text-center inline-block">Go Home</button>
+                                </div>
+                              </form>
+                            </dialog>
+                        </div>
                     </div>
                 </div>
             </div>
